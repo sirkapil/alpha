@@ -1,0 +1,15 @@
+{
+  "lang": "en",
+  "background_color": "#2196F3",
+  "name": "Contact",
+  "short_name": "Contact",
+  "display": "standalone",
+  "start_url": "/?utm_source=homescreen",
+  "icons": [
+    {
+      "src": "https://sirkapil.me/img/icon/icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}

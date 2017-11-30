@@ -1,0 +1,376 @@
+/* Clipboard CSS copyright 2014 Ben Keith
+ * Released under the MIT License
+ * https://benlk.github.io/clipboard/
+ */
+@import url(//fonts.googleapis.com/css?family=Droid+Sans);
+@import url(//fonts.googleapis.com/css?family=Gentium+Book+Basic);
+@import url(//fonts.googleapis.com/css?family=Source+Code+Pro);
+/* line 10, ../scss/clipboard.scss */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+/* line 16, ../scss/clipboard.scss */
+body {
+  font-family: "Gentium Book Basic", Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+  color: #222222;
+  line-height: 1.4em;
+  background-color: white;
+  padding-bottom: 3em;
+}
+
+/* line 24, ../scss/clipboard.scss */
+a {
+  color: #2277dd;
+  transition: 0.5s;
+}
+/* line 27, ../scss/clipboard.scss */
+a:hover, a:active {
+  color: #dd2211;
+}
+
+/* line 31, ../scss/clipboard.scss */
+blockquote {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 0;
+  border-left: 1em solid #eeeeee;
+  padding-left: 1em;
+  padding-right: 3em;
+}
+
+/* line 40, ../scss/clipboard.scss */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* line 45, ../scss/clipboard.scss */
+code {
+  font-family: "Source Code Pro", Courier, "Courier New", monospace;
+  letter-spacing: -0.05em;
+}
+
+/* line 49, ../scss/clipboard.scss */
+footer {
+  color: #888888;
+}
+/* line 51, ../scss/clipboard.scss */
+footer p {
+  text-align: center;
+}
+/* line 53, ../scss/clipboard.scss */
+footer p a {
+  color: inherit;
+}
+/* line 55, ../scss/clipboard.scss */
+footer p a:hover, footer p a:active {
+  color: #2277dd;
+}
+
+/* line 61, ../scss/clipboard.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gentium Book Basic", Georgia, Times, "Times New Roman", serif;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+}
+/* line 65, ../scss/clipboard.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+}
+
+/* line 69, ../scss/clipboard.scss */
+h1 {
+  font-size: 1.7em;
+  line-height: 1.33em;
+  padding-top: 1.11em;
+  margin-bottom: 1.11em;
+}
+
+/* line 75, ../scss/clipboard.scss */
+h2 {
+  font-size: 1.33em;
+  line-height: 1.5em;
+  padding-top: 1.11em;
+  margin-bottom: 1.11em;
+}
+
+/* line 81, ../scss/clipboard.scss */
+h1, h2 {
+  text-align: center;
+  font-variant: small-caps;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+
+/* line 87, ../scss/clipboard.scss */
+h3 {
+  font-size: 1.2em;
+  line-height: 1.15em;
+}
+
+/* line 91, ../scss/clipboard.scss */
+h4, h5 {
+  font-size: 1.1em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+/* line 96, ../scss/clipboard.scss */
+h6 {
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+}
+
+/* line 100, ../scss/clipboard.scss */
+h3, h4, h5, h6 {
+  margin-top: 1.11em;
+  margin-bottom: 1.11em;
+}
+
+/* line 104, ../scss/clipboard.scss */
+hr {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border: none;
+  width: 70%;
+  border-top: 1px dotted #999;
+}
+
+/* line 111, ../scss/clipboard.scss */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  max-width: 100%;
+}
+/* line 118, ../scss/clipboard.scss */
+img.float-right {
+  float: right;
+  display: inline;
+  margin-left: 1em;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 1em;
+  max-width: 30%;
+}
+/* line 127, ../scss/clipboard.scss */
+img.float-left {
+  float: left;
+  display: inline;
+  margin-left: 0;
+  margin-right: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+  max-width: 30%;
+}
+
+/* line 137, ../scss/clipboard.scss */
+p {
+  margin-top: 1em;
+}
+
+/* line 140, ../scss/clipboard.scss */
+pre {
+  -webkit-box-shadow: inset 0 0 0.5em 0.25em #e6e6e6;
+  -moz-box-shadow: inset 0 0 0.5em 0.25em #e6e6e6;
+  box-shadow: inset 0 0 0.5em 0.25em #e6e6e6;
+  padding: 0.5em;
+  overflow-x: auto;
+  overflow-y: visible;
+  font-size: 14px;
+}
+
+/* line 147, ../scss/clipboard.scss */
+ol, ul {
+  margin: 1em 0 1em 3em;
+  padding: 0;
+}
+/* line 150, ../scss/clipboard.scss */
+ol li, ul li {
+  margin: 0.5em 0 0.5em 0;
+}
+/* line 153, ../scss/clipboard.scss */
+ol.no-decoration, ul.no-decoration {
+  list-style: none;
+}
+/* line 156, ../scss/clipboard.scss */
+ol.inline li, ul.inline li {
+  display: inline;
+  width: auto;
+}
+
+/* line 161, ../scss/clipboard.scss */
+ol ul, ul ol, ol ol, ul ul {
+  margin: 0.5em 0 0.5em 2em;
+}
+
+/* line 164, ../scss/clipboard.scss */
+ol {
+  list-style: decimal;
+}
+/* line 166, ../scss/clipboard.scss */
+ol ol {
+  list-style: lower-alpha;
+}
+/* line 168, ../scss/clipboard.scss */
+ol ol ol {
+  list-style: lower-roman;
+}
+/* line 170, ../scss/clipboard.scss */
+ol ol ol ol {
+  list-style: lower-greek;
+}
+
+/* line 177, ../scss/clipboard.scss */
+nav ul.nav {
+  text-transform: uppercase;
+  text-align: center;
+  border-top: 1px solid #222222;
+  border-bottom: 1px solid #222222;
+  margin: 0;
+  margin-bottom: 2em;
+  position: relative;
+}
+/* line 185, ../scss/clipboard.scss */
+nav ul.nav li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+/* line 192, ../scss/clipboard.scss */
+nav ul.nav li + li {
+  margin-left: 1em;
+}
+/* line 195, ../scss/clipboard.scss */
+nav ul.nav li.back {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/* line 201, ../scss/clipboard.scss */
+nav ul.nav li a {
+  color: #222222;
+  text-decoration: none;
+}
+
+/* Sticky footer stuff, based on
+ * http://blog.softlayer.com/2012/tips-and-tricks-pure-css-sticky-footers
+ */
+/* line 212, ../scss/clipboard.scss */
+html {
+  height: 100%;
+  position: relative;
+  padding-bottom: 0;
+}
+
+/* line 217, ../scss/clipboard.scss */
+body {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+
+/* line 224, ../scss/clipboard.scss */
+body > :first-child,
+header :first-child {
+  margin-top: 0;
+}
+
+/* line 227, ../scss/clipboard.scss */
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 100px;
+}
+
+/* line 1, ../scss/partials/_responsive.scss */
+body {
+  width: 660px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 6, ../scss/partials/_responsive.scss */
+  img.float-right {
+    margin-right: -10%;
+  }
+
+  /* line 9, ../scss/partials/_responsive.scss */
+  img.float-left {
+    margin-left: -10%;
+  }
+}
+@media screen and (min-width: 950px) {
+  /* line 14, ../scss/partials/_responsive.scss */
+  img.float-right {
+    margin-right: -20%;
+    max-width: 40%;
+  }
+
+  /* line 18, ../scss/partials/_responsive.scss */
+  img.float-left {
+    margin-left: -20%;
+    max-width: 40%;
+  }
+}
+@media screen and (min-width: 1075px) {
+  /* line 24, ../scss/partials/_responsive.scss */
+  img.float-right {
+    margin-right: -30%;
+    max-width: 50%;
+  }
+
+  /* line 28, ../scss/partials/_responsive.scss */
+  img.float-left {
+    margin-left: -30%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 659px) {
+  /* line 34, ../scss/partials/_responsive.scss */
+  body {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+  }
+
+  /* line 40, ../scss/partials/_responsive.scss */
+  img.float-right, img.float-left {
+    float: none;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-width: 100%;
+  }
+
+  /* line 50, ../scss/partials/_responsive.scss */
+  nav ul.nav li.back {
+    position: relative;
+    margin-left: 1em;
+  }
+}
+@media screen and (max-width: 300px) {
+  /* line 56, ../scss/partials/_responsive.scss */
+  ol.inline li, ul.inline li {
+    display: block;
+  }
+}
