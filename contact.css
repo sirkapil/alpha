@@ -1,0 +1,151 @@
+#contactform {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: 400;
+  cursor: pointer;
+}
+
+textarea,
+input {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  text-align: center;
+  background: none;
+  font-weight: 700;
+  font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 25px;
+  color: #ff4500;
+  max-width: 90%;
+  padding: 1rem;
+  border: 2px dashed rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  cursor: text;
+}
+
+textarea {
+  text-align: left;
+  /* overflow:hidden; */
+  
+  resize: none;
+  width: 90%;
+  border-color: #ff4500
+}
+
+textarea:focus {
+  background-color: none;
+  border: #ff4500;
+}
+
+textarea:focus:required:valid {
+  border: 2px solid #15B6B1
+;
+  border-bottom: 2px solid #15B6B1;
+}
+
+textarea:required:valid {
+  border: 2px solid #15B6B1
+;
+  border-bottom: 2px solid #15B6B1;
+}
+
+input {
+  border-bottom: 2px dashed #ff4500;
+}
+
+input:required,
+textarea:required {
+  border-bottom: 2px dashed #ff4500;
+}
+
+input:focus {
+  border-bottom: 2px dashed #ff4500;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+input:required:valid {
+  border-bottom: 2px solid #15B6B1;
+}
+
+input:required:invalid {
+  color: #ff4500;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 300;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 300;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 300;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.expanding {
+  vertical-align: top;
+}
+
+.send-icn {
+  fill: rgba(255, 78, 0, 5)
+}
+
+.send-icn:hover {
+  fill: #15B6B1;
+  cursor: pointer;
+}
+
+button {
+  background: hsla(60, 100%, 97%, 1);
+  border: #ff4500;
+  outline: #15B6B1;
+  margin: 1vmax;
+}
+
+button:hover small {
+  opacity: 1;
+}
+
+small {
+  display: block;
+  opacity: 0;
+}
+
+.website {
+  opacity: 1;
+  font-size: 16px;
+  color: #ff4500;
+  position: relative;
+  text-align: center;
+  display: block;
+  margin-top: 7%;
+  
+}
+
+.website a {
+  color: green;
+}
