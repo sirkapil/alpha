@@ -4,16 +4,3 @@
   font-weight: 400;
   src: local('Open Sans'), local('OpenSans'), url(https://cdn1.netlify.com/product-sans/productsans.woff2) format('woff2');
 }
-
-
-
-body {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	height: 100vh;
-	align-items: center;
-	font-family: Product Sans;
-	font-size: 6vw;
-	padding: 20px;
-}
