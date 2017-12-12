@@ -17,20 +17,3 @@ body {
 	font-size: 6vw;
 	padding: 20px;
 }
-
-$blue : #4285F4;
-$red : #EA4335;
-$yellow : #FBBC05;
-$green : #34A853;
-
-
-span {
-	
-	&:nth-child(7n+1) { color: $blue; }
-	&:nth-child(7n+2) { color: $red; }
-	&:nth-child(7n+3) { color: $yellow; }
-	&:nth-child(7n+4) { color: $blue; }
-	&:nth-child(7n+5) { color: $green; }
-	&:nth-child(7n+6) { color: $red; }
-	&:nth-child(7n+7) { color: $yellow; }
-}
