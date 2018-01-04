@@ -2,9 +2,9 @@
 
 a[href^="https://github.com"]:after, a[href^="http://github.com"]:after, a[href^="//github.com"]:after { content: "\f09b" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
-a[href^="https://twitter.com"]:after, a[href^="http://twitter.com"]:after, a[href^="https://mobile.twitter.com"]:after, a[href^="http://mobile.twitter.com"]:after, a[href^="//twitter.com"]:after, a[href=^"//mobile.twitter.com"]:after { content: "\f099" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href^="https://twitter.com"]:after, a[href^="http://twitter.com"]:after, a[href^="https://mobile.twitter.com"]:after, a[href^="http://mobile.twitter.com"]:after, a[href^="//twitter.com"]:after, a[href^="//mobile.twitter.com"]:after { content: "\f099" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
-a[href^="https://facebook.com"]:after, a[href^="http://facebook.com"]:after, a[href^="https://m.facebook.com"]:after, a[href^="http://m.facebook.com"]:after, a[href^="//facebook.com"]:after, a[href=^"//m.facebook.com"]:after { content: "\f09ba" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href^="https://facebook.com"]:after, a[href^="http://facebook.com"]:after, a[href^="https://m.facebook.com"]:after, a[href^="http://m.facebook.com"]:after, a[href^="//facebook.com"]:after, a[href^="//m.facebook.com"]:after { content: "\f09a" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
 a[href^="https://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
