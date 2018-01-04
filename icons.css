@@ -4,7 +4,13 @@ a[href^="https://"]:after { content: "\f08e"; font-family: FontAwesome; font-wei
 
 a[href^="//"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}/* Strip from links to own domain or with class no_icon */
 
-a[href^="https://work.sirkapil.me"]:after,a.no_icon:after { content:"" !important; padding-left: 0;}
+a[href^="https://github.com"]:after { content: "\f09b" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
+a[href^="https://twitter.com"]:after { content: "\f099" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
+a[href^="https://facebook.com"]:after, a[href^="https://m.facebook.com"]:after  { content: "\f09ba" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
+a.no_icon:after, a.no-icon:after, a.noicon:after { content:"" !important; padding-left: 0;}
 
 a[href$=".xls"]:after, a[href$=".XLS"]:after, a[href$=".xlsx"]:after, a[href$=".XLSX"]:after { content: "\f1c3"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
@@ -20,4 +26,6 @@ a[href$=".ppt"]:after, a[href$=".PPT"]:after, a[href$=".PPTX"]:after, a[href$=".
 
 a[href$=".GIF"]:after, a[href$=".gif"]:after, a[href$=".png"]:after, a[href$=".PNG"]:after, a[href$=".jpg"]:after, a[href$=".JPG"]:after, a[href$=".jpeg"]:after, a[href$=".JPEG"]:after { content: "\f1c5"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
-a[href$=".JS"]:after, a[href$=".js"]:after, a[href$=".css"]:after, a[href$=".CSS"]:after, a[href$=".tex"]:after, a[href$=".TEX"]:after, a[href$=".dvi"]:after,  a[href$=".PS"]:after, a[href$=".ps"]:after { content: "\f1c9"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href$=".JS"]:after, a[href$=".js"]:after, a[href$=".css"]:after, a[href$=".CSS"]:after { content: "\f1c9"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
+a[href$=".tex"]:after, a[href$=".TEX"]:after, a[href$=".dvi"]:after,  a[href$=".PS"]:after, a[href$=".ps"]:after { content: "\f15b"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
