@@ -1,14 +1,14 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 
+a[href^="https://github.com"]:after, a[href^="http://github.com"]:after, a[href^="//github.com"]:after { content: "\f09b" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
+a[href^="https://twitter.com"]:after, a[href^="http://twitter.com"]:after, a[href^="https://mobile.twitter.com"]:after, a[href^="http://mobile.twitter.com"]:after, a[href^="//twitter.com"]:after, a[href=^"//mobile.twitter.com"]:after { content: "\f099" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
+a[href^="https://facebook.com"]:after, a[href^="http://facebook.com"]:after, a[href^="https://m.facebook.com"]:after, a[href^="http://m.facebook.com"]:after, a[href^="//facebook.com"]:after, a[href=^"//m.facebook.com"]:after { content: "\f09ba" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
 a[href^="https://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
 a[href^="//"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}/* Strip from links to own domain or with class no_icon */
-
-a[href^="https://github.com"]:after { content: "\f09b" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
-
-a[href^="https://twitter.com"]:after { content: "\f099" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
-
-a[href^="https://facebook.com"]:after, a[href^="https://m.facebook.com"]:after  { content: "\f09ba" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
 a.no_icon:after, a.no-icon:after, a.noicon:after { content:"" !important; padding-left: 0;}
 
