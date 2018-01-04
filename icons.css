@@ -1,0 +1,17 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+a[href^="https://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
+a[href^="//"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}/* Strip from links to own domain or with class no_icon */
+
+a[href^="https://work.sirkapil.me"]:after,a.no_icon:after { content:"" !important; padding-left: 0;}
+
+a[href$=".xls"]:after, a[href$=".XLS"]:after, a[href$=".xlsx"]:after, a[href$=".XLSX"]:after { content: "\f1c3"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
+a[href$=".pdf"]:after, a[href$=".PDF"]:after { content: "\f1c1"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
+a[href$=".zip"]:after, a[href$=".ZIP"]:after { content: "\f1c6"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
+a[href$=".TXT"]:after, a[href$=".txt"]:after { content: "\f0F6"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
+a[href$=".docx"]:after, a[href$=".DOCX"]:after { content: "\f1c2"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
