@@ -1,4 +1,8 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+/* ------------------------------------------------------------------------- */
+/* -------------IMPORTING LATEST FONTAWESOME FROM JSDELIVR CDN-------------- */
+/* ------------------------------------------------------------------------- */
+
+@import url(https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css);
 
 /* ------------------------------------------------------------------------- */
 /* ---------------ICONS FOR EXTERNAL LINKS TO SOCIAL SITES------------------ */
