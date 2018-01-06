@@ -1,7 +1,26 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 //-------------------------------------------------------------------------//
+//---------------ICON FOR OTHER EXTERNAL LINKS-----------------------------//
+//-------------------------------------------------------------------------//
+
+a[href^="https://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: wavy; padding-left: 3px;}
+
+a[href^="http://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: dotted; padding-left: 3px;}
+
+a[href^="//"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: double; padding-left: 3px;}
+
+a[href^="ftp://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: double; padding-left: 3px;}
+
+a[href^="ssh://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: wavy; padding-left: 3px;}
+
+//-------------------------NO ICON-----------------------------------------//
+
+a.no_icon:after, a.no-icon:after, a.noicon:after { content:"" !important; padding-left: 0;}
+
+//-------------------------------------------------------------------------//
 //---------------ICONS FOR EXTERNAL LINKS TO SOCIAL SITES------------------//
 //-------------------------------------------------------------------------//
+
 a[href^="https://github.com"]:after, a[href^="http://github.com"]:after, a[href^="//github.com"]:after { content: "\f09b" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
 a[href^="https://twitter.com"]:after, a[href^="http://twitter.com"]:after, a[href^="https://mobile.twitter.com"]:after, a[href^="http://mobile.twitter.com"]:after, a[href^="//twitter.com"]:after, a[href^="//mobile.twitter.com"]:after { content: "\f099" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
@@ -21,24 +40,6 @@ a[href^="https://codepen.io"]:after, a[href^="http://codepen.io"]:after, a[href^
 a[href^="https://fontawesome.io"]:after, a[href^="http://fontawesome.io"]:after, a[href^="//fontawesome.io"]:after { content: "\f2b4" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
 a[href^="https://gitlab.com"]:after, a[href^="http://gitlab.com"]:after, a[href^="//gitlab.com"]:after { content: "\f296" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
-
-//-------------------------------------------------------------------------//
-//---------------ICON FOR OTHER EXTERNAL LINKS-----------------------------//
-//-------------------------------------------------------------------------//
-
-a[href^="https://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: wavy; padding-left: 3px;}
-
-a[href^="http://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: dotted; padding-left: 3px;}
-
-a[href^="//"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: double; padding-left: 3px;}
-
-a[href^="ftp://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: double; padding-left: 3px;}
-
-a[href^="ssh://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: wavy; padding-left: 3px;}
-
-//-------------------------NO ICON-----------------------------------------//
-
-a.no_icon:after, a.no-icon:after, a.noicon:after { content:"" !important; padding-left: 0;}
 
 //-------------------------------------------------------------------------//
 //---------------ICON FOR EXTERNAL LINKS FILE EXTENSIONS-------------------//
