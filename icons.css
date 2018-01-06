@@ -18,15 +18,22 @@ a[href^="https://pinterest.com"]:after, a[href^="http://pinterest.com"]:after, a
 
 a[href^="https://codepen.io"]:after, a[href^="http://codepen.io"]:after, a[href^="//codepen.io"]:after { content: "\f1cb" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
+a[href^="https://fontawesome.io"]:after, a[href^="http://fontawesome.io"]:after, a[href^="//fontawesome.io"]:after { content: "\f2b4" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
+a[href^="https://gitlab.com"]:after, a[href^="http://gitlab.com"]:after, a[href^="//gitlab.com"]:after { content: "\f296" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
 //-------------------------------------------------------------------------//
 //---------------ICON FOR OTHER EXTERNAL LINKS-----------------------------//
 //-------------------------------------------------------------------------//
 
-a[href^="https://"]:after, a[href^="http://"]:after, a[href^="ftp://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
-
+a[href^="https://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href^="http://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href^="ftp://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href^="ssh://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 a[href^="//"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
 //-------------------------NO ICON-----------------------------------------//
-//-------------------------NO ICON-----------------------------------------//
+
 a.no_icon:after, a.no-icon:after, a.noicon:after { content:"" !important; padding-left: 0;}
 
 //-------------------------------------------------------------------------//
