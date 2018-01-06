@@ -1,19 +1,5 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 //-------------------------------------------------------------------------//
-//---------------------ICON FOR EXTERNAL LINKS-----------------------------//
-//-------------------------------------------------------------------------//
-
-a[href^="https://"]:after, a[href^="http://"]:after, a[href^="//"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: normal; padding-left: 3px;}
-
-a[href^="ftp://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: double; padding-left: 3px;}
-
-a[href^="ssh://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: double; padding-left: 3px;}
-
-//-------------------------NO ICON-----------------------------------------//
-
-a.no_icon:after, a.no-icon:after, a.noicon:after { content:"" !important; padding-left: 0;}
-
-//-------------------------------------------------------------------------//
 //---------------ICONS FOR EXTERNAL LINKS TO SOCIAL SITES------------------//
 //-------------------------------------------------------------------------//
 
@@ -36,6 +22,24 @@ a[href^="https://codepen.io"]:after, a[href^="http://codepen.io"]:after, a[href^
 a[href^="https://fontawesome.io"]:after, a[href^="http://fontawesome.io"]:after, a[href^="//fontawesome.io"]:after { content: "\f2b4" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
 a[href^="https://gitlab.com"]:after, a[href^="http://gitlab.com"]:after, a[href^="//gitlab.com"]:after { content: "\f296" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
+//-------------------------------------------------------------------------//
+//---------------------ICON FOR EXTERNAL LINKS-----------------------------//
+//-------------------------------------------------------------------------//
+
+a[href^="//"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: normal; padding-left: 3px;}
+
+a[href^="http://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: normal; padding-left: 3px;}
+
+a[href^="https://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: normal; padding-left: 3px;}
+
+a[href^="ftp://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: normal; padding-left: 3px;}
+
+a[href^="ssh://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: normal; padding-left: 3px;}
+
+//-------------------------NO ICON-----------------------------------------//
+
+a.no_icon:after, a.no-icon:after, a.noicon:after { content:"" !important; padding-left: 0;}
 
 //-------------------------------------------------------------------------//
 //---------------ICON FOR EXTERNAL LINKS FILE EXTENSIONS-------------------//
