@@ -4,25 +4,117 @@
 /* ---------------ICONS FOR EXTERNAL LINKS TO SOCIAL SITES------------------ */
 /* ------------------------------------------------------------------------- */
 
-a[href^="https://github.com"]:after, a[href^="http://github.com"]:after, a[href^="//github.com"]:after { content: "\f09b" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href^="https://github.com"]:after, a[href^="http://github.com"]:after,
+a[href^="//github.com"]:after {
+  content: "\f09b" !important;
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: normal;
+  padding-left: 3px;
+}
 
-a[href^="https://twitter.com"]:after, a[href^="http://twitter.com"]:after, a[href^="https://mobile.twitter.com"]:after, a[href^="http://mobile.twitter.com"]:after, a[href^="//twitter.com"]:after, a[href^="//mobile.twitter.com"]:after { content: "\f099" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href^="https://twitter.com"]:after, a[href^="http://twitter.com"]:after,
+a[href^="https://mobile.twitter.com"]:after, a[href^="http://mobile.twitter.com"]:after,
+a[href^="//twitter.com"]:after, a[href^="//mobile.twitter.com"]:after {
+  content: "\f099" !important;
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: normal;
+  padding-left: 3px;
+}
 
-a[href^="https://facebook.com"]:after, a[href^="http://facebook.com"]:after, a[href^="https://m.facebook.com"]:after, a[href^="http://m.facebook.com"]:after, a[href^="//facebook.com"]:after, a[href^="//m.facebook.com"]:after { content: "\f09a" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href^="https://facebook.com"]:after, a[href^="http://facebook.com"]:after,
+a[href^="https://m.facebook.com"]:after, a[href^="http://m.facebook.com"]:after,
+a[href^="//facebook.com"]:after, a[href^="//m.facebook.com"]:after {
+  content: "\f09a" !important;
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: normal;
+  padding-left: 3px;
+}
 
-a[href^="https://youtube.com"]:after, a[href^="http://youtube.com"]:after, a[href^="https://m.youtube.com"]:after, a[href^="http://m.youtube.com"]:after, a[href^="//youtube.com"]:after, a[href^="//m.youtube.com"]:after { content: "\f16a" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href^="https://youtube.com"]:after, a[href^="http://youtube.com"]:after,
+a[href^="https://m.youtube.com"]:after, a[href^="http://m.youtube.com"]:after,
+a[href^="//youtube.com"]:after, a[href^="//m.youtube.com"]:after {
+  content: "\f16a" !important;
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: normal;
+  padding-left: 3px;
+}
 
-a[href^="https://quora.com"]:after, a[href^="http://quora.com"]:after, a[href^="//quora.com"]:after { content: "\f2c4" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href^="https://quora.com"]:after, a[href^="http://quora.com"]:after,
+a[href^="//quora.com"]:after {
+  content: "\f2c4" !important;
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: normal;
+  padding-left: 3px;
+}
 
-a[href^="https://reddit.com"]:after, a[href^="http://reddit.com"]:after, a[href^="//reddit.com"]:after { content: "\f1a1" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href^="https://reddit.com"]:after, a[href^="http://reddit.com"]:after,
+a[href^="//reddit.com"]:after {
+  content: "\f1a1" !important;
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: normal;
+  padding-left: 3px;
+}
 
-a[href^="https://pinterest.com"]:after, a[href^="http://pinterest.com"]:after, a[href^="//pinterest.com"]:after { content: "\f231" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href^="https://pinterest.com"]:after, a[href^="http://pinterest.com"]:after,
+a[href^="//pinterest.com"]:after {
+  content: "\f231" !important;
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: normal;
+  padding-left: 3px;
+}
 
-a[href^="https://codepen.io"]:after, a[href^="http://codepen.io"]:after, a[href^="//codepen.io"]:after { content: "\f1cb" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href^="https://codepen.io"]:after, a[href^="http://codepen.io"]:after,
+a[href^="//codepen.io"]:after {
+  content: "\f1cb" !important;
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: normal;
+  padding-left: 3px;
+}
 
-a[href^="https://fontawesome.io"]:after, a[href^="http://fontawesome.io"]:after, a[href^="//fontawesome.io"]:after { content: "\f2b4" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
-
-a[href^="https://gitlab.com"]:after, a[href^="http://gitlab.com"]:after, a[href^="//gitlab.com"]:after { content: "\f296" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href^="https://fontawesome.io"]:after, a[href^="http://fontawesome.io"]:after,
+a[href^="//fontawesome.io"]:after {
+  content: "\f2b4" !important;
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: normal;
+  padding-left: 3px;
+}
+a[href^="https://gitlab.com"]:after, a[href^="http://gitlab.com"]:after,
+a[href^="//gitlab.com"]:after {
+  content: "\f296" !important;
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: normal;
+  padding-left: 3px;
+}
 
 /* ------------------------------------------------------------------------- */
 /* ---------------------ICON FOR EXTERNAL LINKS----------------------------- */
@@ -56,20 +148,103 @@ a[href^="#"]:after  {
 ------------------ICON FOR EXTERNAL LINKS FILE EXTENSIONS-------------------
 ------------------------------------------------------------------------- */
 
-a[href$=".xls"]:after, a[href$=".XLS"]:after, a[href$=".xlsx"]:after, a[href$=".XLSX"]:after { content: "\f1c3"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href$=".xls"]:after, a[href$=".XLS"]:after, a[href$=".xlsx"]:after,
+a[href$=".XLSX"]:after {
+  content: "\f1c3";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 3px;
+}
 
-a[href$=".pdf"]:after, a[href$=".PDF"]:after { content: "\f1c1"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href$=".pdf"]:after, a[href$=".PDF"]:after {
+   content: "\f1c1";
+   font-family: FontAwesome;
+   font-weight: normal;
+   font-style: normal;
+   display: inline-block;
+   text-decoration: none;
+   padding-left: 3px;
+ }
 
-a[href$=".zip"]:after, a[href$=".ZIP"]:after { content: "\f1c6"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href$=".zip"]:after, a[href$=".ZIP"]:after {
+   content: "\f1c6";
+   font-family: FontAwesome;
+   font-weight: normal;
+   font-style: normal;
+   display: inline-block;
+   text-decoration: none;
+   padding-left: 3px;
+ }
 
-a[href$=".TXT"]:after, a[href$=".txt"]:after { content: "\f0F6"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href$=".TXT"]:after, a[href$=".txt"]:after {
+  content: "\f0F6";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 3px
+}
 
-a[href$=".docx"]:after, a[href$=".DOCX"]:after { content: "\f1c2"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href$=".docx"]:after, a[href$=".DOCX"]:after {
+   content: "\f1c2";
+   font-family: FontAwesome;
+   font-weight: normal;
+   font-style: normal;
+   display: inline-block;
+   text-decoration: none;
+   padding-left: 3px;
+ }
 
-a[href$=".ppt"]:after, a[href$=".PPT"]:after, a[href$=".PPTX"]:after, a[href$=".pptx"]:after, a[href$=".PPSX"]:after, a[href$=".ppsx"]:after, a[href$=".pptm"]:after, a[href$=".PPTM"]:after { content: "\f1c4"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href$=".ppt"]:after, a[href$=".PPT"]:after,
+a[href$=".PPTX"]:after, a[href$=".pptx"]:after,
+a[href$=".PPSX"]:after, a[href$=".ppsx"]:after,
+a[href$=".pptm"]:after, a[href$=".PPTM"]:after {
+   content: "\f1c4";
+   font-family: FontAwesome;
+   font-weight: normal;
+   font-style: normal;
+   display: inline-block;
+   text-decoration: none;
+   padding-left: 3px;
+ }
 
-a[href$=".GIF"]:after, a[href$=".gif"]:after, a[href$=".png"]:after, a[href$=".PNG"]:after, a[href$=".jpg"]:after, a[href$=".JPG"]:after, a[href$=".jpeg"]:after, a[href$=".JPEG"]:after { content: "\f1c5"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href$=".GIF"]:after, a[href$=".gif"]:after,
+a[href$=".png"]:after, a[href$=".PNG"]:after,
+a[href$=".jpg"]:after, a[href$=".JPG"]:after,
+a[href$=".jpeg"]:after, a[href$=".JPEG"]:after {
+  content: "\f1c5";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 3px;
+}
 
-a[href$=".JS"]:after, a[href$=".js"]:after, a[href$=".css"]:after, a[href$=".CSS"]:after,a[href$=".md"]:after, a[href$=".MD"]:after { content: "\f1c9"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href$=".JS"]:after, a[href$=".js"]:after,
+a[href$=".css"]:after, a[href$=".CSS"]:after,
+a[href$=".md"]:after, a[href$=".MD"]:after {
+  content: "\f1c9";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 3px;
+}
 
-a[href$=".tex"]:after, a[href$=".TEX"]:after, a[href$=".dvi"]:after,  a[href$=".PS"]:after, a[href$=".ps"]:after { content: "\f15b"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href$=".tex"]:after, a[href$=".TEX"]:after,
+a[href$=".dvi"]:after,  a[href$=".PS"]:after,
+a[href$=".ps"]:after {
+  content: "\f15b";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 3px;
+}
