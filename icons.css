@@ -37,8 +37,8 @@ a[href^="https://"]:after, a[href^="http://"]:after, a[href^="//"]:after  {
   text-decoration: none;
   padding-left: 3px;
 }
-/* --------Strip from links to own domain or with class no_icon------------ */
-a.no_icon:after {
+/* ----------------Strip from links with class for NO ICON--------------- */
+a.no_icon:after, a.noicon:after, a.no-icon:after {
   content:"" !important;
   padding-left: 0;
 }
