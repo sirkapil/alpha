@@ -34,15 +34,24 @@ a[href^="https://"]:after, a[href^="http://"]:after, a[href^="//"]:after  {
   font-weight: normal;
   font-style: normal;
   display: inline-block;
-  text-decoration: wavy;
+  text-decoration: normal;
   padding-left: 3px;
 }
-/* ----------------Strip from links with class for NO ICON--------------- */
+/* -----------------Strip from links with class for NO ICON----------------- */
 a.no_icon:after, a.noicon:after, a.no-icon:after {
   content:"" !important;
   padding-left: 0;
 }
-
+/* ----------------Strip for internal links-------------------------------- */
+a[href^="/"]:after, a[href^="./"]:after, a[href^="../"]:after  {
+  content: "\f0c1";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: normal;
+  padding-left: 3px;
+}
 /* -------------------------------------------------------------------------
 ------------------ICON FOR EXTERNAL LINKS FILE EXTENSIONS-------------------
 ------------------------------------------------------------------------- */
