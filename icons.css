@@ -8,11 +8,27 @@ a[href^="https://twitter.com"]:after, a[href^="http://twitter.com"]:after, a[hre
 
 a[href^="https://facebook.com"]:after, a[href^="http://facebook.com"]:after, a[href^="https://m.facebook.com"]:after, a[href^="http://m.facebook.com"]:after, a[href^="//facebook.com"]:after, a[href^="//m.facebook.com"]:after { content: "\f09a" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
-a[href^="https://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href^="https://youtube.com"]:after, a[href^="http://youtube.com"]:after, a[href^="https://m.youtube.com"]:after, a[href^="http://m.youtube.com"]:after, a[href^="//youtube.com"]:after, a[href^="//m.youtube.com"]:after { content: "\f16a" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
-a[href^="//"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}/* Strip from links to own domain or with class no_icon */
+a[href^="https://quora.com"]:after, a[href^="http://quora.com"]:after, a[href^="//quora.com"]:after { content: "\f2c4" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
+a[href^="https://reddit.com"]:after, a[href^="http://reddit.com"]:after, a[href^="//reddit.com"]:after { content: "\f1a1" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
+a[href^="https://pinterest.com"]:after, a[href^="http://pinterest.com"]:after, a[href^="//pinterest.com"]:after { content: "\f231" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
+a[href^="https://codepen.io"]:after, a[href^="http://codepen.io"]:after, a[href^="//codepen.io"]:after { content: "\f1cb" !important; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+
+//-------------------------------------------------------------------------//
+//---------------ICON FOR OTHER EXTERNAL LINKS-----------------------------//
+//-------------------------------------------------------------------------//
+
+a[href^="https://"]:after, a[href^="http://"]:after, a[href^="ftp://"]:after, a[href^="//"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+//-------------------------NO ICON-----------------------------------------//
 a.no_icon:after, a.no-icon:after, a.noicon:after { content:"" !important; padding-left: 0;}
+
+//-------------------------------------------------------------------------//
+//---------------ICON FOR EXTERNAL LINKS FILE EXTENSIONS-------------------//
+//-------------------------------------------------------------------------//
 
 a[href$=".xls"]:after, a[href$=".XLS"]:after, a[href$=".xlsx"]:after, a[href$=".XLSX"]:after { content: "\f1c3"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
@@ -28,6 +44,6 @@ a[href$=".ppt"]:after, a[href$=".PPT"]:after, a[href$=".PPTX"]:after, a[href$=".
 
 a[href$=".GIF"]:after, a[href$=".gif"]:after, a[href$=".png"]:after, a[href$=".PNG"]:after, a[href$=".jpg"]:after, a[href$=".JPG"]:after, a[href$=".jpeg"]:after, a[href$=".JPEG"]:after { content: "\f1c5"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
-a[href$=".JS"]:after, a[href$=".js"]:after, a[href$=".css"]:after, a[href$=".CSS"]:after { content: "\f1c9"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href$=".JS"]:after, a[href$=".js"]:after, a[href$=".css"]:after, a[href$=".CSS"]:after,a[href$=".md"]:after, a[href$=".MD"]:after { content: "\f1c9"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
 a[href$=".tex"]:after, a[href$=".TEX"]:after, a[href$=".dvi"]:after,  a[href$=".PS"]:after, a[href$=".ps"]:after { content: "\f15b"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
