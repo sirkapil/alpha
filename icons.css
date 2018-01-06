@@ -43,7 +43,7 @@ a.no_icon:after, a.noicon:after, a.no-icon:after {
   padding-left: 0;
 }
 /* ----------------Strip for internal links-------------------------------- */
-a[href^="#"]:after, a[href^="./"]:after, a[href^="../"]:after  {
+a[href^="#"]:after  {
   content: "\f0c1";
   font-family: FontAwesome;
   font-weight: normal;
