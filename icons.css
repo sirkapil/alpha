@@ -28,9 +28,7 @@ a[href^="https://gitlab.com"]:after, a[href^="http://gitlab.com"]:after, a[href^
 //---------------------ICON FOR EXTERNAL LINKS-----------------------------//
 //-------------------------------------------------------------------------//
 
-a[href^="https://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
-
-a[href^="//"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
+a[href^="https://"]:after, a[href^="//"]:after, a[href^="http://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px;}
 
 //-------------------------NO ICON-----------------------------------------//
 
