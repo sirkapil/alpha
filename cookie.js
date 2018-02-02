@@ -39,4 +39,4 @@ function checkCookie() {
 // create a cookie that expires after one hour
 Cookies.set('theme', 'clean', {path : '/'});
 
-Cookies.set('language', 'en-IN', {path : '/'}, {expiry : new Date(2030, 1, 1)}, {path : '/'});
+Cookies.set('language', 'en-IN', {expiry : new Date(2030, 1, 1)}, {path : '/'});
