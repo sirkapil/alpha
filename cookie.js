@@ -43,20 +43,5 @@ function createCookie(language,value,days) {
 		var expires = "; expires="+date.toGMTString();
 	}
 	else var expires = "";
-	document.cookie = language+"="+value+expires+"; path=/";
-}
-
-function readCookie(language) {
-	var languageEQ = name + "=";
-	var ca = document.cookie.split(';');
-	for(var i=0;i < ca.length;i++) {
-		var c = ca[i];
-		while (c.charAt(0)==' ') c = c.substring(1,c.length);
-		if (c.indexOf(languageEQ) == 0) return c.substring(languageEQ.length,c.length);
-	}
-	return null;
-}
-
-function eraseCookie(language) {
-	createCookie(language,"",-1);
+	document.cookie = language+"=english-india"+expires+"; path=/";
 }
