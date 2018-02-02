@@ -36,12 +36,7 @@ function checkCookie() {
 }
 
 
-function createCookie(language,value,days) {
-	if (days) {
-		var date = new Date();
-		date.setTime(date.getTime()+(days*24*60*60*100000));
-		var expires = "; expires="+date.toGMTString();
-	}
-	else var expires = "";
-	document.cookie = language+"=english-india"+expires+"; path=/";
-}
+// create a cookie that expires after one hour
+Cookies.set('theme', 'clean', {path : '/'});
+
+Cookies.set('language', 'en-IN', {expiry : new Date(2030, 1, 1)}, {path : '/'});
